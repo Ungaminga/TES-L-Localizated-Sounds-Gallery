@@ -29,6 +29,7 @@
             {
                 audio = new Audio(file);
                 audio.play();
+                audio.volume = 0.4;
                 audio.onended = onended;
                 var span = document.getElementById(id).querySelectorAll('span')[0];
                 span.style.color = "red";
