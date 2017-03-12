@@ -1,0 +1,54 @@
+/* Beautiexes */
+body {
+    font: inherit;
+}
+li, ul{
+    list-style: none;
+    padding: 0 0 0 5px;
+}
+input{
+    display:none;
+}
+a {
+   text-decoration: none;
+}
+input, label, a{
+    cursor: pointer;
+}
+
+/* Directory show-hide */
+input ~ ul{
+    display: none;
+}
+
+input:checked:not(:disabled) ~ ul{
+    display: block;
+}
+
+/* Custom input buttons */
+span.checked{
+    display: none;
+}
+input:checked:not(:disabled) ~ label>span.checked{
+    display: inline;
+}
+input:checked:not(:disabled) ~ label>span.unchecked{
+    display: none;
+}
+
+/* Play/stop button */
+span.play {
+    color:green; 
+    font-size:20px;
+}
+
+/* For big directories */
+div {
+     display: inline;
+     float: left;
+     padding: 0px 20px 0px 0px;
+}
+div.big{
+    display:block;
+    width:99%;
+}    
