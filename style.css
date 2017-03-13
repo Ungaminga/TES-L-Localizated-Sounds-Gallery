@@ -6,10 +6,13 @@ li, ul{
     list-style: none;
     padding: 0 0 0 5px;
 }
+ul{
+    padding-top: 1px;
+}
 input{
     display:none;
 }
-a {
+a[download] {
    text-decoration: none;
 }
 input, label, a{
@@ -40,6 +43,15 @@ input:checked:not(:disabled) ~ label>span.unchecked{
 span.play {
     color:green; 
     font-size:20px;
+}
+
+/* A div for links */
+div.links{
+    right:0px;
+    position:absolute;
+    background-color: khaki;
+    border: green 2px solid;
+    padding: 2px;
 }
 
 /* For big directories */
