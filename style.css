@@ -63,4 +63,7 @@ div {
 div.big{
     display:block;
     width:99%;
-}    
+}
+audio{
+      display:block;
+}
