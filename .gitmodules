@@ -1,3 +1,6 @@
 [submodule "sounds"]
 	path = sounds
 	url = https://github.com/Ungaminga/TES-L-Localizated-Sounds.git
+[submodule "mp3"]
+	path = mp3
+	url = https://github.com/Ungaminga/TES-L-Localizated-Sounds-MP3.git
