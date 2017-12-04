@@ -77,15 +77,19 @@ div.links{
 }
 
 /* For big directories */
-div {
-     display: inline;
-     float: left;
-     padding: 0px 20px 0px 0px;
-}
 div.big{
     display:block;
     width:99%;
 }
+
+td{
+   vertical-align: top;
+}
+
+table{
+      border: 1px solid black;
+}
+
 audio{
       display:block;
 }
